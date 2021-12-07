@@ -15,5 +15,7 @@ func main() {
 		"Newcastle":  0,
 	}
 
-	fmt.Printf("\nLeague titles: %v\nRecent Head to heads: %v\n", leagueTitles, recentHead2HeadWins)
+	fmt.Printf("League titles: %v\nRecent Head to heads: %v\n",
+		leagueTitles, recentHead2HeadWins)
+
 }

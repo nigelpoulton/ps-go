@@ -10,4 +10,9 @@ func main() {
 	fmt.Printf("Length starts out as %d with a capacity of %d\n",
 		len(mySlice), cap(mySlice))
 
+	for i := 1; i < 17; i++ {
+		mySlice = append(mySlice, i)
+		fmt.Printf("Slice length is %d but capacity is %d\n",
+			len(mySlice), cap(mySlice))
+	}
 }

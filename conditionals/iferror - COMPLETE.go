@@ -7,10 +7,11 @@ import (
 
 func main() {
 
-	_, err := os.Open("./test1.txt")
+	_, err := os.Open("./test.txt")
 
 	if err != nil {
 		fmt.Println("This is the error code:", err)
 	}
 
+	fmt.Println("This is the error code:", err)
 }

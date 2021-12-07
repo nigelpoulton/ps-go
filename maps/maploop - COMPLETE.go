@@ -16,4 +16,13 @@ func main() {
 		"G": 7,
 		"H": 8,
 		"I": 9,
+	}
+
+
+	testMap["A"] = 100
+	testMap["J"] = 1973
+	fmt.Println(testMap)
+
+	delete(testMap, "J")
+	fmt.Println(testMap)
 }
